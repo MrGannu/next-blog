@@ -1,0 +1,73 @@
+.container {
+  margin-top: 50px;
+}
+.title {
+  color: var(--softTextColor);
+  margin-bottom: 30px;
+}
+.write {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.input {
+  padding: 20px;
+  width: 100%;
+  border-radius: 5px;
+  outline: 0;
+  border: 0.5px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.input:focus {
+  border: 0.5px solid rgba(211, 211, 211, 0.658);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.button {
+  padding: 16px 20px;
+  background-color: teal;
+  color: white;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.userImageContainer {
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+.avatar {
+  border-radius: 50%;
+  object-fit: cover;
+}
+.userTextContainer {
+  display: flex;
+  flex-direction: column;
+  color: var(--softTextColor);
+  gap: 5px;
+}
+.username {
+  font-weight: 600;
+}
+.date {
+  font-size: 14px;
+  font-weight: 400;
+}
+.comments {
+  margin-top: 50px;
+}
+.comment {
+  margin-bottom: 50px;
+}
+.desc {
+  margin-left: 60px;
+}

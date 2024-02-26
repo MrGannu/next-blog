@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.wrapper {
+  background-color: var(--softBg);
+  padding: 150px 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  border-radius: 10px;
+}
